@@ -83,7 +83,7 @@ Hasil outputnya:
 ![enter image description here](https://github.com/antonmartinus72/Labo_1-2/blob/master/img/5_Output_String-f.PNG)
 
 ## Lab2 
-   Pada Lab2 ini, kita akan membahas tentang cara **mengkonversikan** atau **mengubah** tipe data tersebut menjadi tipe data bersifat **bilangan** atau **angka**, misalnya integer atau float dengan menggunakan metode format cara baru yaitu `format()`.
+   Pada Lab2 ini, kita akan membahas tentang cara **mengonversikan** atau **mengubah** tipe data tersebut menjadi tipe data bersifat **bilangan** atau **angka**, misalnya integer atau float dengan menggunakan metode format cara baru yaitu `format()`.
    
     a = input("masukkan nilai a:")  
     b = input("masukkan nilai b:")  
@@ -101,9 +101,7 @@ Hasilnya :
 
 ![enter image description here](https://github.com/kameliacindy/Tugas_2/blob/master/img/Lab2.PNG)
 
-Setelah di _run_, maka akan muncul output seperti gambar di atas. Namun, sebelum program dijalankan, kita sebagai user akan diperintah untuk memasukkan data (angka) seperti di atas pada angka yang berwarna hijau (10&5) yang diikuti keterangan berupa string "**masukkan data**" .
-Sedangkan, "**%d**" adalah perintah untuk mencetak output ke dalam bentuk desimal. Kita bisa mengubah "**%d**" menjadi, misalnya "**%f**", dan output yang akan di hasilkan akan dicetak dalam bentuk float.
-
+Setelah di _run_, maka akan muncul output seperti gambar di atas. Namun, sebelum program dijalankan, kita sebagai user akan diperintah untuk memasukkan data (angka) seperti di atas pada angka yang berwarna hijau (10&5) yang diikuti keterangan berupa string "**masukkan data**". Sedangkan, "**%d**" adalah perintah untuk mencetak output ke dalam bentuk desimal. 
 
 
 
