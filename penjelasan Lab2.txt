@@ -1,0 +1,15 @@
+ ## Lab2 
+   Pada Lab2 ini, kita akan membahas cara mengonversi string ke desimal dengan menggunakan metode format cara baru yaitu `format()`
+   
+    a = input("masukkan nilai a:")  
+    b = input("masukkan nilai b:")  
+    print("variabel a=", a)  
+    print("variabel b=", b)  
+    print('hasil penggabungan {}&{}'.format(a, b))  
+      
+    #konversi nilai variable  
+    a = int(a)  
+    b = int(b)  
+    print("hasil penjumlahan {}+{}=%d".format(a,b) %(a+b))
+    print("hasil penjumlahan {}+{}=%d".format(a,b) %(a+b))
+Hasilnya :
