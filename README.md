@@ -76,7 +76,7 @@ Dalam contoh di atas terdapat **{ }** yang berfungsi sebagai _**placeholder**_ a
 Misalnya _**placeholder**_ pada urutan pertama yaitu "{**0**:>3}" dan kita ingin mengganti menjadi "**1**" maka yang akan dicetak di _**placeholder**_ pertama adalah output dari "**10 ** 0**".
  **Contoh kode :**
  
- print('{1:>3} {0:>16}'.format(0, 10 ** 0))
+    print('{1:>3} {0:>16}'.format(0, 10 ** 0))
 
 Hasil outputnya:
 
