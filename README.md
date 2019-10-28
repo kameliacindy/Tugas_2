@@ -80,7 +80,8 @@ Misalnya _**placeholder**_ pada urutan pertama yaitu "{**0**:>3}" dan kita ingin
 
 Hasil outputnya:
 
-![enter image description here](https://github.com/kameliacindy/Tugas_2/blob/master/img/string.PNG)
+![enter image description here](https://github.com/antonmartinus72/Labo_1-2/blob/master/img/5_Output_String-f.PNG)
+
 
 
 
