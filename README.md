@@ -13,6 +13,7 @@ Di dalam bahasa Python, pengunaan "**end**" merupakan salah satu fungsi bawaan u
     print('Z')
    
    dan akan muncul outputnya seperti di bawah ini:
+   
    ![enter image description here](https://github.com/kameliacindy/Tugas_2/blob/master/img/end.PNG)
    
    ### Penggunaan separator
@@ -26,6 +27,7 @@ Di dalam bahasa Python, pengunaan "**end**" merupakan salah satu fungsi bawaan u
     print(w, x, y, z, sep=':')  
     print(w, x, y, z, sep='-----')
    yang outputnya seperti di bawah ini:
+   
    ![enter image description here](https://github.com/kameliacindy/Tugas_2/blob/master/img/sep.PNG)
 
 ### Penggunaan String Format
@@ -49,27 +51,28 @@ Hasil outputnya:
 Dan kita akan mengubah outputnya menjadi seperti ini:
 ![enter image description here](https://github.com/kameliacindy/Tugas_2/blob/master/img/string%20format%202.PNG)
 Dengan kodenya seperti di bawah ini:
-```
-print('{0:>3} {1:>16}'.format(0, 10 ** 0))  
-print('{0:>3} {1:>16}'.format(1, 10 ** 1))  
-print('{0:>3} {1:>16}'.format(2, 10 ** 2))  
-print('{0:>3} {1:>16}'.format(3, 10 ** 3))  
-print('{0:>3} {1:>16}'.format(4, 10 ** 4))  
-print('{0:>3} {1:>16}'.format(5, 10 ** 5))  
-print('{0:>3} {1:>16}'.format(6, 10 ** 6))  
-print('{0:>3} {1:>16}'.format(7, 10 ** 7))  
-print('{0:>3} {1:>16}'.format(8, 10 ** 8))  
-print('{0:>3} {1:>16}'.format(9, 10 ** 9))  
-print('{0:>3} {1:>16}'.format(10, 10 ** 10))
-```
+    print('{0:>3} {1:>16}'.format(0, 10 ** 0))  
+    print('{0:>3} {1:>16}'.format(1, 10 ** 1))  
+    print('{0:>3} {1:>16}'.format(2, 10 ** 2))  
+    print('{0:>3} {1:>16}'.format(3, 10 ** 3))  
+    print('{0:>3} {1:>16}'.format(4, 10 ** 4))  
+    print('{0:>3} {1:>16}'.format(5, 10 ** 5))  
+    print('{0:>3} {1:>16}'.format(6, 10 ** 6))  
+    print('{0:>3} {1:>16}'.format(7, 10 ** 7))  
+    print('{0:>3} {1:>16}'.format(8, 10 ** 8))  
+    print('{0:>3} {1:>16}'.format(9, 10 ** 9))  
+    print('{0:>3} {1:>16}'.format(10, 10 ** 10))
 Dalam contoh di atas terdapat **{ }** yang berfungsi sebagai _**placeholder**_ atau penempat **arguments**. Argument secara default urutannya adalah **berurutan**.
+
 ![enter image description here](https://github.com/antonmartinus72/Labo_1-2/blob/master/img/6_Output_String-f.png)
+
 Misalnya _**placeholder**_ pada urutan pertama yaitu "{**0**:>3}" dan kita ingin mengganti menjadi "**1**" maka yang akan dicetak di _**placeholder**_ pertama adalah output dari "**10 ** 0**".
  **Contoh kode :**
- ```
-print('{1:>3} {0:>16}'.format(0, 10 ** 0))
-```
+ 
+ print('{1:>3} {0:>16}'.format(0, 10 ** 0))
+
 Hasil outputnya:
+
 ![enter image description here](https://github.com/kameliacindy/Tugas_2/blob/master/img/string.PNG)
 
 
